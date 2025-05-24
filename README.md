@@ -75,6 +75,7 @@ from math import sqrt
 2. Place original X-ray folders (`images1`, `images2`, ..., `images12`) into the "NIH-Chest-X-ray-dataset" folder
 3. Create a new folder in "NIH-Chest-X-ray-dataset" folder: images for the combination of downloaded images
 4. In `demo.py`, update `DATA_DIR` to local path:
+       DATA_DIR = "/path/to/your/demo"
 
 ---
 
