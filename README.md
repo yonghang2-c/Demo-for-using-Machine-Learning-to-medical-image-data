@@ -27,32 +27,59 @@ pip install -r requirements.txt
 **`requirements.txt`** should include:
 
 import os
+
 import random
+
 import numpy as np
+
 import pandas as pd
+
 from PIL import Image, ImageDraw
+
 from sklearn.model_selection import train_test_split, KFold
+
 from sklearn.ensemble import RandomForestRegressor
+
 from sklearn.metrics import r2_score, mean_squared_error
+
 import shap
+
 import torch
+
 import torch.nn as nn
+
 from torch.amp import GradScaler, autocast
+
 from torch.utils.data import Dataset, DataLoader
+
 import torchvision.transforms as T
+
 import segmentation_models_pytorch as smp
+
 from segmentation_models_pytorch.losses import DiceLoss
+
 from skimage.measure import label as sk_label, regionprops
+
 from tqdm import tqdm
+
 import shutil
+
 import optuna
+
 import json
+
 from xgboost import XGBRegressor
+
 from lightgbm import LGBMRegressor
+
 from joblib import dump
+
 import joblib
+
 import matplotlib.pyplot as plt
+
 from sklearn.model_selection import KFold
+
 from math import sqrt
 
 ---
