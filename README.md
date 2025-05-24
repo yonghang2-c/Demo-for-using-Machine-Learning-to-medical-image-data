@@ -88,10 +88,10 @@ from math import sqrt
 
 ```
 ├── README.md                 # This document
-├── demo.py                   # demo code
+├── Demo-Image.py             # demo code
 ├── requirements.txt          # Python package dependencies
-├── NIH-Chest-X-ray-dataset   # Example public dataset from NIH: [https://nihcc.app.box.com/v/ChestXray-NIHCC]
-└── outputs/                  # Generated artifacts (models, CSVs, plots)
+├── NIH-Chest-X-ray-dataset/   # Example public dataset from NIH: [https://nihcc.app.box.com/v/ChestXray-NIHCC]
+└── Results/                  # Generated artifacts (models, CSVs, plots)
 ```
 
 ---
@@ -101,7 +101,7 @@ from math import sqrt
 1. Down the medical imgaes from https://huggingface.co/datasets/alkzar90/NIH-Chest-X-ray-dataset/tree/main/data/images
 2. Place original X-ray folders (`images1`, `images2`, ..., `images12`) into the "NIH-Chest-X-ray-dataset" folder
 3. Create a new folder in "NIH-Chest-X-ray-dataset" folder: images for the combination of downloaded images
-4. In `demo.py`, update `DATA_DIR` to local path:
+4. In `Demo-Image.py`, update `DATA_DIR` to local path:
        DATA_DIR = "/path/to/your/demo"
 
 ---
@@ -111,7 +111,7 @@ from math import sqrt
 Run the full pipeline:
 
 ```bash
-python demo.py
+python Demo-Image.py
 ```
 
 This will:
