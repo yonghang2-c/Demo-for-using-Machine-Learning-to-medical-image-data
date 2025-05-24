@@ -112,6 +112,7 @@ Example:
 
 Results/cv_scatter_rf.png
 
+Results/shap_importance_rf.png
 
 ---
 
