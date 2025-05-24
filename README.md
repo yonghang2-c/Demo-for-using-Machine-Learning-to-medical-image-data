@@ -110,7 +110,8 @@ This will:
 
 Example:
 
-![CV Scatter Plot](outputs/cv_scatter_xgb.png)
+Results/cv_scatter_rf.png
+
 
 ---
 
