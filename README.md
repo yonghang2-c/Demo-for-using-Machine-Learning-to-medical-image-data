@@ -149,7 +149,7 @@ Results/shap_importance_rf.png
 * **Model architecture**: Switch encoder or architecture in the U-Net instantiation.
 * **Transforms**: Modify `SegmentationTransform` for additional augmentations.
 * **Hyperparameter search**: Adjust `n_trials` or parameter ranges in the Optuna `objective`.
-* **Batch size, epochs, learning rate**: Edit constants in `demo.py`.
+* **Batch size, epochs, learning rate**: Edit constants in `Demo-Image.py`.
 
 ---
 
